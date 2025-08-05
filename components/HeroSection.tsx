@@ -12,7 +12,7 @@ export default function HeroSection(){
                 </h1>
             </div>
             <div className="">
-                <h2 className="text-center font-extralight text-gray-500">
+                <h2 className="text-center font-extralight text-gray-500 tracking-wider">
                     We believe in making technology accessible to everyone,<br></br> regardless of location, expertise, or resources.
                 </h2>
             </div>
