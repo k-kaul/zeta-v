@@ -5,8 +5,10 @@ import Industries from "@/components/Industries";
 import Journey from "@/components/Journey";
 import NavBar from "@/components/NavBar";
 import Services from "@/components/Services";
+import Testimonials from "@/components/Testimonials";
 
 export default function Home() {
+
   return (
     <div className="min-h-screen w-full">
       <div className="flex flex-col items-center ">
@@ -17,6 +19,7 @@ export default function Home() {
         <Delivery />
         <Services />
         <Employees />
+        <Testimonials />
       </div>
     </div>
   );
