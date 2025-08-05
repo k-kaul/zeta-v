@@ -4,11 +4,11 @@ import Link from "next/link";
 
 export default function NavBar(){
     return (
-        <div className="w-full mt-5">
-            <div className="flex gap-10 items-center">
-                <div className="flex gap-2 items-center">
+        <div className="w-full">
+            <div className="flex pt-3 gap-10 items-center justify-center text-sm">
+                <div className="flex gap-3 items-center">
                     <Image height={50} width={50} src={Logo} alt="logo"/>
-                    <span>Zeta-V</span>
+                    <span className="text-lg font-bold bg-gradient-to-r from-red-700 via-purple-700 to-blue-700 bg-clip-text text-transparent">Zeta-V</span>
                 </div>
                 <div className="flex flex-row gap-20 justify-between items-center top-0">
                     <Link href={'/'}>

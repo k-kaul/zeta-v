@@ -3,7 +3,7 @@ import Link from "next/link"
 
 export default function HeroSection(){
     return (
-        <section className="flex flex-col mt-40 gap-6">
+        <section className="flex flex-col my-30 gap-6 w-full">
             <div className="">
                 <h1 className="text-center text-7xl font-extrabold tracking-tight">
                     Democratizing IT {' '}
