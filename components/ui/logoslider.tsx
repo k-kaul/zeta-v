@@ -6,19 +6,15 @@ import React, { useState } from 'react';
 import Slider from 'react-slick';
 import Image from "next/image";
 
-const LogoSlider = ({ slidesToScroll, slidesToShow, speed }:{ 
-    slidesToScroll:number;
-    slidesToShow: number; 
-    speed: number; 
-}) => {
+const LogoSlider = () => {
   const [settings] = useState({
     dots: false,
     infinite: true,
-    slidesToShow,
-    slidesToScroll,
+    slidesToShow: 10,
+    slidesToScroll: 2,
     autoplay: true,
-    speed,
-    autoplaySpeed: 0.1,
+    speed: 3000,
+    autoplaySpeed: 0,
     cssEase: 'linear',
   });
 
@@ -43,12 +39,12 @@ const LogoSlider = ({ slidesToScroll, slidesToShow, speed }:{
   ];
 
   return (
-    <div className="">
-      <Slider {...settings} className="w-screen">
+    <div>
+      <Slider {...settings}>
         {
             logos.map((logo, index) => (
-            <div key={index} className="">
-                <Image src={logo} alt='logo' width={120} height={1} className="grayscale-100"/>
+            <div key={index}>
+                <Image src={logo} alt='logo' width={100} height={10} className="grayscale-100 pt-5"/>
             </div>          
         ))
         }
