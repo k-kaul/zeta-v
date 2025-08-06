@@ -34,6 +34,7 @@ export default function NavBar(){
                     </Link>
                 </div>
             </div>
+            <div className="border border-gray-200 w-screen mt-2"/>
         </div>
     )
 }
