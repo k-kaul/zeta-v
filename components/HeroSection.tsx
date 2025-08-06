@@ -22,7 +22,12 @@ export default function HeroSection(){
                         <button className="flex bg-gray-100 py-2 px-5 rounded-full text-black cursor-pointer">Contact Us <MoveRight className="pl-2"/></button>
                     </Link>
                 </div>
-                <LogoSlider />
+                <div className="flex flex-col gap-15 pt-5">
+                    <h1 className="text-xl font-light text-center text-gray-700 tracking-wide">Trusted by the largest companies</h1>
+                    <LogoSlider slidesToShow={10} slidesToScroll={5} speed={6000}/>
+                    <LogoSlider slidesToShow={10} slidesToScroll={-2} speed={3000}/>
+                </div>
+                
             </div>
         </section>
     )
