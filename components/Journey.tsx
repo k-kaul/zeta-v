@@ -1,20 +1,16 @@
 import { Timeline } from "./ui/timeline";
 import Image from "next/image";
 
-
-
-
-
 export default function Journey(){
       const data = [
     {
       title: "2024",
       content: (
         <div>
-            <h1 className="text-lg md:text-4xl mb-4 text-black max-w-4xl">
+            <h1 className="text-lg md:text-4xl mb-4  max-w-4xl">
                 Microsoft & Telco-IoT CoE
             </h1>
-          <p className="mb-8 text-md font-normal text-neutral-800 md:text-lg ">
+          <p className="mb-8 text-md font-normal  md:text-lg ">
             Launched new Centers of Excellence focused on Microsoft technologies and Telco-IoT (Internet of Things) solutions. This step diversified the company’s technology stack and positioned it for leadership in smart solutions, cloud computing, and next-gen telecom innovations.
           </p>
           <div className="grid grid-cols-2 gap-4 text-white">
@@ -33,10 +29,10 @@ export default function Journey(){
       title: "2023",
       content: (
         <div>
-          <h1 className="text-lg md:text-4xl mb-4 text-black max-w-4xl">
+          <h1 className="text-lg md:text-4xl mb-4  max-w-4xl">
             India Offshore Center
           </h1>
-          <p className="mb-8 text-md font-normal text-neutral-800 md:text-lg ">
+          <p className="mb-8 text-md font-normal  md:text-lg ">
             A full-fledged offshore delivery center was set up in India to support global clients with 24/7 services. This marked a significant upgrade in operational capacity and reinforced India’s role as a strategic technology hub for the company.
           </p>
           <div className="grid grid-cols-2 gap-4">
@@ -55,10 +51,10 @@ export default function Journey(){
       title: "2022",
       content: (
         <div>
-          <h1 className="text-lg md:text-4xl mb-4 text-black max-w-4xl">
+          <h1 className="text-lg md:text-4xl mb-4  max-w-4xl">
             SAP & Zoho CoE (Center of Excellence)
           </h1>
-          <p className="mb-8 text-md font-normal text-neutral-800 md:text-lg ">
+          <p className="mb-8 text-md font-normal  md:text-lg ">
                 Established dedicated Centers of Excellence for SAP and Zoho solutions, offering enterprise clients specialized implementation, integration, and support services. These CoEs positioned the company as a trusted partner in ERP and business software ecosystems.
           </p>
           <div className="grid grid-cols-2 gap-4">
@@ -77,10 +73,10 @@ export default function Journey(){
       title: "2021",
       content: (
         <div key={Math.random()*100}>
-          <h1 className="text-lg md:text-4xl mb-4 text-black max-w-4xl">
+          <h1 className="text-lg md:text-4xl mb-4  max-w-4xl">
             USA & Germany Operations
           </h1>
-          <p className="mb-8 text-md font-normal text-neutral-800 md:text-lg ">
+          <p className="mb-8 text-md font-normal  md:text-lg ">
                 The company expanded its footprint into Western markets by launching operations in the USA and Germany. This broadened the client base, allowed closer proximity to key customers, and enhanced its global delivery capabilities.
           </p>
           <div className="grid grid-cols-2 gap-4">
@@ -99,10 +95,10 @@ export default function Journey(){
       title: "2020",
       content: (
         <div key={2020}>
-          <h1 className="text-lg md:text-4xl mb-4 text-black max-w-4xl">
+          <h1 className="text-lg md:text-4xl mb-4  max-w-4xl">
             India Sourcing Operations
           </h1>
-          <p className="mb-8 text-md font-normal text-neutral-800 md:text-lg ">
+          <p className="mb-8 text-md font-normal  md:text-lg ">
                 India operations were initiated to leverage cost-effective talent and robust IT capabilities. This move enabled global sourcing, strengthened backend operations, and created a scalable offshore delivery model.
           </p>
           <div className="grid grid-cols-2 gap-4">
@@ -121,10 +117,10 @@ export default function Journey(){
       title: "2019",
       content: (
         <div key={2019}>
-          <h1 className="text-lg md:text-4xl mb-4 text-black max-w-4xl">
+          <h1 className="text-lg md:text-4xl mb-4  max-w-4xl">
             Digital Platform Launched
           </h1>
-          <p className="mb-8 text-md font-normal text-neutral-800 md:text-lg ">
+          <p className="mb-8 text-md font-normal  md:text-lg ">
                 A major product milestone: the launch of the company’s digital platform. This enabled automation, scalability, and enhanced digital services, forming the core infrastructure to support global operations and digital transformation initiatives for clients.
           </p>
           <div className="grid grid-cols-2 gap-4">
@@ -143,10 +139,10 @@ export default function Journey(){
       title: "2018",
       content: (
         <div key={2018}>
-          <h1 className="text-lg md:text-4xl mb-4 text-black max-w-4xl">
+          <h1 className="text-lg md:text-4xl mb-4  max-w-4xl">
             IT Corridors in China
           </h1>
-          <p className="mb-8 text-md font-normal text-neutral-800 md:text-lg ">
+          <p className="mb-8 text-md font-normal  md:text-lg ">
                 Expansion began into mainland China with the establishment of IT corridors, enabling the company to tap into the region&apos;s vast tech talent pool and strengthen its delivery capabilities in the Asian market.
           </p>
           <div className="grid grid-cols-2 gap-4">
@@ -165,10 +161,10 @@ export default function Journey(){
       title: "2017",
       content: (
         <div key={2017}>
-          <h1 className="text-lg md:text-4xl mb-4 text-black max-w-4xl">
+          <h1 className="text-lg md:text-4xl mb-4  max-w-4xl">
             Founded in HONG KONG
           </h1>
-          <p className="mb-8 text-md font-normal text-neutral-800 md:text-lg ">
+          <p className="mb-8 text-md font-normal  md:text-lg ">
                 The company was established in Hong Kong, marking its official entry into the global market. This foundational year laid the groundwork for future growth and innovation, focusing on international business strategy and service offerings.
           </p>
           <div className="grid grid-cols-2 gap-4">
@@ -186,7 +182,7 @@ export default function Journey(){
   ];
   
     return (
-    <div className="my-6">
+    <div className="w-screen">
         <Timeline data={data}/>
     </div>
                   
