@@ -16,3 +16,46 @@ export const SERVICES = [
         description: 'Dedicated business unit focused on providing shared services in India and China on-demand basis for entity incorporation & sustenance; Accounts, HR.'
     }
 ]
+
+export const journeyItems = [
+  {
+    id: 1,
+    title: "2017",
+    content: "Founded in Hong Kong",
+  },
+  {
+    id: 2,
+    title: "2018",
+    content: "IT Corridors in China",
+  },
+  {
+    id: 3,
+    title: "2019",
+    content: "Digital Platform Launched",
+  },
+  {
+    id: 4,
+    title: "2020",
+    content: "India Sourcing Operations",
+  },
+  {
+    id: 5,
+    title: "2021",
+    content: "USA & Germany Operations",
+  },
+  {
+    id: 6,
+    title: "2022",
+    content: "SAP & Zoho CoE",
+  },
+  {
+    id: 7,
+    title: "2023",
+    content: "India Offshore Center",
+  },
+  {
+    id: 8,
+    title: "2024",
+    content: "Microsoft & Telco-lot CoE",
+  },
+]

@@ -12,17 +12,17 @@ export default function Home() {
 
   return (
     <div className="min-h-screen w-full">
-      <div className="flex flex-col items-center font-sans ">
-        <HeroSection />
-        <Journey />
-        <Industries />
+      {/* <div className="flex flex-col items-center font-sans "> */}
+        {/* <HeroSection /> */}
+        <Journey key={Math.random()*1000}/>
+        {/* <Industries />
         <Delivery />
         <Services />
         <Employees />
         <Testimonials />
         <CTA />
-        <Footer />
-      </div>
+        <Footer /> */}
+      {/* </div> */}
     </div>
   );
 }

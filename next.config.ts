@@ -7,7 +7,16 @@ const nextConfig: NextConfig = {
       new URL('https://zeta-v.com/wp-content/**'),
       new URL('https://base.demo.nextjstemplates.com/**'), 
       new URL('https://aceternity.com/**'),
-      new URL('https://split-xi.vercel.app/**')
+      new URL('https://split-xi.vercel.app/**'),
+      new URL('https://cdn.mrkhub.com/**'),
+      new URL('https://www.eetimes.com/**'),
+      new URL('https://assets.gqindia.com/**'),
+      new URL('https://architecture.live/**'),
+      new URL('https://c4.wallpaperflare.com/wallpaper/**'),
+      new URL('https://t3.ftcdn.net/**'),
+      new URL('https://img.freepik.com/free-photo/**'),
+      new URL('https://archello.s3.eu-central-1.amazonaws.com/**'),
+      new URL('https://as1.ftcdn.net/jpg/03/18/55/70/**'),
     ]
   }
 };

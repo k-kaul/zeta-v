@@ -34,7 +34,9 @@ const LogoSlider = () => {
     'https://aceternity.com/cdn-cgi/image/width=256/https://assets.aceternity.com/companies/zomato.png',
     'https://split-xi.vercel.app/_next/static/media/notion.56757276.svg',
     'https://split-xi.vercel.app/_next/static/media/auth0.bff781b3.svg',
-    'https://split-xi.vercel.app/_next/static/media/algolia.162142c5.svg'
+    'https://split-xi.vercel.app/_next/static/media/algolia.162142c5.svg',
+    'https://cdn.mrkhub.com/instapage-landings-frontend/228/images/_modules/partners-slider/honey-light.svg',
+    
 
   ];
 
