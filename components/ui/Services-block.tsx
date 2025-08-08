@@ -1,22 +1,22 @@
-import { SERVICES } from "@/lib/constants";
 import { cn } from "@/lib/utils";
 import { CheckCircle } from "lucide-react";
 import Link from "next/link";
 
-export default function ServicesBlock({ className }:{
+export default function ServicesBlock({ className, description, title }:{
     className?:string;
-    // services: Service[];
+    description: string;
+    title:string;
 }){
     return (
         <div className={cn('border-gray-100',className)}>
             <div className="flex flex-col p-10 gap-5">
                 <div className="flex items-center gap-3">
                     <CheckCircle className="text-green-500" />
-                    <h1 className="text-xl">{SERVICES[2].title}</h1>
+                    <h1 className="text-xl">{title}</h1>
                 </div>
                 <div>
                     <p className="font-extralight tracking-wide">
-                        {SERVICES[2].description}
+                        {description}
                     </p>
                 </div>
                 <Link 
