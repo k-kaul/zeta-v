@@ -1,4 +1,4 @@
-import ServicesBlock from "./Services-block";
+import ServicesBlock from "./ui/Services-block";
 
 export default function Services(){
     return (
