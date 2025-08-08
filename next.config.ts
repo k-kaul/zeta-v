@@ -17,6 +17,13 @@ const nextConfig: NextConfig = {
       new URL('https://img.freepik.com/free-photo/**'),
       new URL('https://archello.s3.eu-central-1.amazonaws.com/**'),
       new URL('https://as1.ftcdn.net/jpg/03/18/55/70/**'),
+      new URL('https://images.pexels.com/**'),
+      new URL('https://www.shutterstock.com/**'),
+      new URL('https://w0.peakpx.com/wallpaper/**'),
+      new URL('https://t3.ftcdn.net/**'),
+      new URL('https://i0.wp.com/zeta-v.com/**'),
+      // new URL('/**'),
+      // new URL('/**'),
     ]
   }
 };
