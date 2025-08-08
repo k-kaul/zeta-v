@@ -12,7 +12,7 @@ export default function ServicesBlock({ className, description, title }:{
             <div className="flex flex-col p-10 gap-5">
                 <div className="flex items-center gap-3">
                     <CheckCircle className="text-green-500" />
-                    <h1 className="text-xl">{title}</h1>
+                    <h1 className="text-xl max-w-lg">{title}</h1>
                 </div>
                 <div>
                     <p className="font-extralight tracking-wide">
