@@ -1,7 +1,6 @@
 import { MoveRight } from "lucide-react"
 import Link from "next/link"
 import LogoSlider from "./ui/logoslider"
-import { DotBackgroundDemo } from "./ui/dotbackground"
 import { cn } from "@/lib/utils"
 
 export default function HeroSection(){
@@ -25,7 +24,6 @@ export default function HeroSection(){
                     <h2 className="text-center font-light text-gray-900 tracking-wider">
                         We believe in making technology accessible to everyone,<br></br> regardless of location, expertise, or resources.
                     </h2>
-                    {/* <DotBackgroundDemo /> */}
                     <div className="flex flex-row gap-5 justify-center font-bold">
                         <Link href={'/#aboutus'}>
                             <button className="flex bg-blue-600 py-2 px-5 rounded-full text-white cursor-pointer hover:scale-105 duration-150">About Us <MoveRight className="pl-2"/></button>

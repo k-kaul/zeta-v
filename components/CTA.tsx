@@ -2,25 +2,19 @@ import Link from "next/link"
 
 export default function CTA(){
     return (
-        <div className="w-full mx-auto py-30 bg-linear-to-b from-indigo-950 to-purple-900">
-            <div className="flex p-10 mx-15">
-                <div className="w-full px-20">
-                    <div className="text-5xl font-medium font-sans text-white">
-                        Ready to dive in?
-                    </div>
-                    <div className="text-xl font-light pt-2 font-sans text-white">
-                        Tell us about your business challenges.
-                    </div>
+        <div className="w-full px-10 py-20 sm:px-20 sm:py-30 bg-linear-to-b from-indigo-950 to-purple-900">
+            <div className="flex flex-col md:flex-row items-center md:max-w-9xl gap-5 p-5 justify-between">
+                <div className="text-3xl md:text-4xl lg:text-5xl font-medium font-sans text-white sm:flex sm:flex-col lg:justify-center">
+                    <h1>Ready to dive in?</h1>
+                    <h1 className="text-lg lg:text-xl font-light pt-2">Tell us about your business challenges.</h1>
                 </div>
-                <div className="w-lg">
-                    <div className="flex gap-5">
-                        <Link href={'/#home'} className="p-3 bg-indigo-700 rounded-2xl w-50 text-center border border-indigo-700 text-white font-sans hover:scale-105 duration-150">
-                            <button>Get Started</button>
-                        </Link>
-                        <Link href={'/#home'} className="p-3 bg-gray-100 rounded-2xl w-50 text-center border border-gray-200 font-sans hover:scale-105 duration-150">
-                            <button>Learn More</button>
-                        </Link>
-                    </div>
+                <div className="flex flex-col md:flex-row gap-3 items-center justify-center">
+                    <Link href={'/#home'} className="bg-indigo-700 rounded-lg text-center border border-indigo-700 text-white font-sans hover:scale-105 duration-150 min-w-35 p-2">
+                        <button>Get Started</button>
+                    </Link>
+                    <Link href={'/#home'} className="bg-gray-100 rounded-lg text-center border border-gray-200 font-sans hover:scale-105 duration-150 min-w-35 p-2">
+                        <button>Learn More</button>
+                    </Link>
                 </div>
             </div>
         </div>
