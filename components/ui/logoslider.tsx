@@ -11,20 +11,15 @@ const LogoSlider = () => {
     dots: false,
     infinite: true,
     slidesToShow: 10,
-    slidesToScroll: 2,
+    slidesToScroll: 1,
     autoplay: true,
-    speed: 3000,
+    speed: 5000,
     autoplaySpeed: 0,
     cssEase: 'linear',
+    rtl: false
   });
 
-  const logos = [
-    'https://base.demo.nextjstemplates.com/images/brand/brand-light-03.svg',
-    'https://base.demo.nextjstemplates.com/images/brand/brand-light-01.svg',
-    'https://base.demo.nextjstemplates.com/images/brand/brand-light-02.svg',
-    'https://base.demo.nextjstemplates.com/images/brand/brand-light-04.svg',
-    'https://base.demo.nextjstemplates.com/images/brand/brand-light-05.svg',
-    'https://base.demo.nextjstemplates.com/images/brand/brand-light-06.svg',
+  const logos = [    
     'https://base.demo.nextjstemplates.com/images/brand/brand-light-03.svg',
     'https://base.demo.nextjstemplates.com/images/brand/brand-light-01.svg',
     'https://base.demo.nextjstemplates.com/images/brand/brand-light-02.svg',
@@ -36,8 +31,6 @@ const LogoSlider = () => {
     'https://split-xi.vercel.app/_next/static/media/auth0.bff781b3.svg',
     'https://split-xi.vercel.app/_next/static/media/algolia.162142c5.svg',
     'https://cdn.mrkhub.com/instapage-landings-frontend/228/images/_modules/partners-slider/honey-light.svg',
-    
-
   ];
 
   return (
@@ -46,7 +39,7 @@ const LogoSlider = () => {
         {
             logos.map((logo, index) => (
             <div key={index}>
-                <Image src={logo} alt='logo' width={100} height={10} className="grayscale-100 pt-5"/>
+                <Image src={logo} alt='logo' width={100} height={50} className="grayscale-100 pt-5"/>
             </div>          
         ))
         }
