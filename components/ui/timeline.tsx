@@ -1,6 +1,5 @@
 "use client";
 import {
-  useMotionValueEvent,
   useScroll,
   useTransform,
   motion,
@@ -34,10 +33,10 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
 
   return (
     <div
-      className="w-full bg-gray-100 font-sans md:px-10 overflow-clip"
+      className="w-full font-sans md:px-10 overflow-clip"
       ref={containerRef}
     >
-      <div className="max-w-7xl flex items-center justify-center mx-auto pt-15 px-4 md:px-8 lg:px-10">
+      <div className="max-w-7xl flex items-center justify-center mx-auto pt-10 px-4 md:px-8 lg:px-10">
         <h2 className="text-2xl md:text-4xl font-bold text-center mb-4 text-black max-w-4xl">
           Zeta-V&apos;s Journey Over the Years
         </h2>
