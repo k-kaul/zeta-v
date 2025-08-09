@@ -23,7 +23,7 @@ export default function HeroSection(){
                 </div>                
             </div>
             <div className="py-5">
-                    <div className="flex flex-col gap-5">
+                    <div className="flex flex-col gap-5 items-center">
                         <h1 className="text-xl font-light text-center text-black tracking-wide">Trusted by customers worldwide</h1>
                         <LogoSlider />
                     </div>

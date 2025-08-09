@@ -10,13 +10,14 @@ const LogoSlider = () => {
   const [settings] = useState({
     dots: false,
     infinite: true,
-    slidesToShow: 10,
+    slidesToShow: 5,
     slidesToScroll: 1,
     autoplay: true,
     speed: 5000,
     autoplaySpeed: 0,
     cssEase: 'linear',
-    rtl: false
+    rtl: false,
+    arrows: false
   });
 
   const logos = [    
@@ -34,7 +35,7 @@ const LogoSlider = () => {
   ];
 
   return (
-    <div>
+    <div className="xl:max-w-7xl lg:max-w-5xl md:max-w-2xl max-w-2xl">
       <Slider {...settings}>
         {
             logos.map((logo, index) => (
