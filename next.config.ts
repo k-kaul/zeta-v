@@ -22,8 +22,6 @@ const nextConfig: NextConfig = {
       new URL('https://w0.peakpx.com/wallpaper/**'),
       new URL('https://t3.ftcdn.net/**'),
       new URL('https://i0.wp.com/zeta-v.com/**'),
-      // new URL('/**'),
-      // new URL('/**'),
     ]
   }
 };
