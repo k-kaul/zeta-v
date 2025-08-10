@@ -14,7 +14,6 @@ export default function HeroSection(){
                       "[background-image:radial-gradient(#b2b2b2_1px,transparent_1px)]",
                     )}
                   />
-                  {/* Radial gradient for the container to give a faded look */}
                   <div className="pointer-events-none absolute inset-0 flex items-center justify-center bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)] "></div>
                 <div className="relative flex flex-col gap-8 items-center">
                     <h1 className="text-center xl:text-7xl text-6xl font-extrabold tracking-tight font-sans max-w-2xl">
