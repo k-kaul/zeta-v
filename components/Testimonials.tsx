@@ -1,6 +1,4 @@
-import Image from 'next/image';
 import React from 'react';
-import zetav from '@/assets/FINANCIAL-SERVICES.webp';
 
 export default function Testimonials() {        
     return (
@@ -26,8 +24,7 @@ export default function Testimonials() {
                             </div>
 
                             <div className="flex items-center mt-8">
-                                <Image className="flex-shrink-0 object-cover rounded-full w-11 h-11" src={zetav} alt="" height={11} width={11}/>
-                                <div className="ml-4">
+                                <div>
                                     <p className="text-base font-bold text-gray-900 font-pj">Founder & Chief Executive Officer</p>
                                     <p className="mt-0.5 text-sm font-pj text-gray-600">Leading Fintech in private wealth management in Asia</p>
                                 </div>
@@ -44,13 +41,7 @@ export default function Testimonials() {
                             </div>
 
                             <div className="flex items-center mt-8">
-                                <Image 
-                                    className="flex-shrink-0 object-cover rounded-full w-11 h-11" 
-                                    src={zetav} 
-                                    height={11}
-                                    width={11}
-                                    alt="" />
-                                <div className="ml-4">
+                                <div>
                                     <p className="text-base font-bold text-gray-900 font-pj">Chief Executive Officer-Asia & Project Sponsor</p>
                                     <p className="mt-0.5 text-sm font-pj text-gray-600">Global leader in precision manufacturing from the German Mittelstand</p>
                                 </div>
@@ -66,8 +57,7 @@ export default function Testimonials() {
                             </div>
 
                             <div className="flex items-center mt-8">
-                                <Image className="flex-shrink-0 object-cover rounded-full w-11 h-11" src={zetav} alt="" height={11} width={11}/>
-                                <div className="ml-4">
+                                <div>
                                     <p className="text-base font-bold text-gray-900 font-pj">General Manager China</p>
                                     <p className="mt-0.5 text-sm font-pj text-gray-600">Multinational pharmaceutical giant from India</p>
                                 </div>
@@ -82,8 +72,7 @@ export default function Testimonials() {
                                 </blockquote>
                             </div>
                             <div className="flex items-center mt-8">
-                                <Image className="flex-shrink-0 object-cover rounded-full w-11 h-11" src={zetav} alt="" height={11} width={11}/>
-                                <div className="ml-4">
+                                <div>
                                     <p className="text-base font-bold text-gray-900 font-pj">Chief Information Officer</p>
                                     <p className="mt-0.5 text-sm font-pj text-gray-600">EU based global major in auto parts.</p>
                                 </div>
@@ -98,8 +87,7 @@ export default function Testimonials() {
                                 </blockquote>
                             </div>
                             <div className="flex items-center mt-8">
-                                <Image className="flex-shrink-0 object-cover rounded-full w-11 h-11" src={zetav} alt="" height={11} width={11}/>
-                                <div className="ml-4">
+                                <div>
                                     <p className="text-base font-bold text-gray-900 font-pj">Chief Executive Officer, International Division</p>
                                     <p className="mt-0.5 text-sm font-pj text-gray-600">Global leader in machine tools manufacturing</p>
                                 </div>
@@ -114,8 +102,7 @@ export default function Testimonials() {
                                 </blockquote>
                             </div>
                             <div className="flex items-center mt-8">
-                                <Image className="flex-shrink-0 object-cover rounded-full w-11 h-11" src={zetav} alt="" height={11} width={11}/>
-                                <div className="ml-4">
+                                <div>
                                     <p className="text-base font-bold text-gray-900 font-pj">Chief Information Officer and Head of Information Technology</p>
                                     <p className="mt-0.5 text-sm font-pj text-gray-600">World leading multilateral bank in Asia</p>
                                 </div>
