@@ -5,8 +5,8 @@ import { cn } from "@/lib/utils"
 
 export default function HeroSection(){
     return (
-        <section className="flex flex-col  gap-15 w-full h-full">
-            <div className="relative flex flex-col h-[50rem] w-full items-center justify-center bg-white">
+        <section className="flex flex-col gap-15 w-full">
+            <div className="relative flex flex-col h-[45rem] w-full items-center justify-center bg-white">
                   <div
                     className={cn(
                       "absolute inset-0",
