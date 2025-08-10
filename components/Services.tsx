@@ -8,7 +8,7 @@ export default function Services(){
             <div className="flex flex-col items-center bg-slate-100/10 p-10 gap-5">
                 <h1 className="md:text-4xl text-xl font-bold">Services</h1>
                 <h2 className="md:text-6xl text-3xl max-w-md md:max-w-5xl text-center font-bold" >
-                    How we change the game {/*<br></br>through IT Services */}
+                    How we change the game
                 </h2>
                 <div className="grid grid-cols-2 items-center m-5 mx-20 min-w-lg md:max-w-7xl">
                     <div className="border-r-1 border-gray-100">
