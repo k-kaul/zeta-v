@@ -1,7 +1,6 @@
 import CTA from "@/components/CTA";
 import Delivery from "@/components/Delivery";
 import Employees from "@/components/Employees";
-import Footer from "@/components/Footer";
 import HeroSection from "@/components/HeroSection";
 import Industries from "@/components/Industries";
 import Journey from "@/components/Journey";
@@ -21,7 +20,6 @@ export default function Home() {
         <Employees />
         <Testimonials />
         <CTA />
-        <Footer />
       </div>
     </div>
   );
