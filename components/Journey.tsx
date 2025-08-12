@@ -81,7 +81,7 @@ export default function Journey(){
           </p>
           <div className="grid grid-cols-2 gap-4">
             <Image
-              src="https://c4.wallpaperflare.com/wallpaper/805/26/530/cityscape-usa-chicago-wallpaper-preview.jpg"
+              src="https://png.pngtree.com/thumb_back/fh260/background/20240705/pngtree-statue-of-liberty-in-front-the-manhattan-skyline-new-york-city-image_15937338.jpg"
               alt="hero template"
               width={500}
               height={500}

@@ -12,7 +12,7 @@ const nextConfig: NextConfig = {
       new URL('https://www.eetimes.com/**'),
       new URL('https://assets.gqindia.com/**'),
       new URL('https://architecture.live/**'),
-      new URL('https://c4.wallpaperflare.com/wallpaper/**'),
+      new URL('https://png.pngtree.com/**'),
       new URL('https://t3.ftcdn.net/**'),
       new URL('https://img.freepik.com/free-photo/**'),
       new URL('https://archello.s3.eu-central-1.amazonaws.com/**'),
