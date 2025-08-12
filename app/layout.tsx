@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Zeta-V",
+  title: "Zeta-V - Simplify Solution | Multiply Value Custom Software Development",
   description: "The orchestration company in the new AI Era. As the new technology trends of AI, Mobile and social become ubiquitous in the enterprises, it is essential for enterprises to find a way to harness these technologies to multiply their business value. It partners with an ecosystem of NewAge technology companies to accelerate the realization of the business value for enterprises using Zeta Value Multiplier Framework (zVMF) and superior project management techniques of Theory of Constraints.",
 };
 
