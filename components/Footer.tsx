@@ -9,7 +9,7 @@ const listContainerStyle = 'flex flex-col gap-3';
 
 export default function Footer(){
     return (
-        <div className="w-full bg-linear-to-b from-gray-200 to-white font-sans">
+        <div className="w-screen bg-linear-to-b from-gray-200 to-white font-sans">
             <div className="p-10 flex justify-center gap-10 items-center ">
                 <div className="flex flex-col size-fit gap-2 items-center justify-center">
                     <Image src={zetaV} alt="" className="w-20 h-20"/>

@@ -2,7 +2,7 @@ import Link from "next/link"
 
 export default function CTA(){
     return (
-        <div className="w-full px-10 py-20 sm:px-20 sm:py-30 bg-linear-to-b from-indigo-950 to-purple-900">
+        <div className="w-screen px-10 py-20 sm:px-20 sm:py-30 bg-linear-to-b from-indigo-950 to-purple-900">
             <div className="flex flex-col md:flex-row items-center md:max-w-9xl gap-5 p-5 justify-between">
                 <div className="text-3xl md:text-4xl lg:text-5xl font-medium font-sans text-white sm:flex sm:flex-col lg:justify-center">
                     <h1>Ready to dive in?</h1>

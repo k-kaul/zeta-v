@@ -11,7 +11,7 @@ export default function Home() {
 
   return (
     <div className="min-h-screen w-full">
-      <div className="flex flex-col items-center font-sans">
+      <div className="flex flex-col w-screen">
         <HeroSection />
         <Journey />
         <Industries />
