@@ -81,7 +81,7 @@ export default function Journey(){
           </p>
           <div className="grid grid-cols-2 gap-4">
             <Image
-              src="https://architecture.live/wp-content/uploads/2022/08/architectureRED_Centre_of_Excellence_2.jpeg"
+              src="https://c4.wallpaperflare.com/wallpaper/805/26/530/cityscape-usa-chicago-wallpaper-preview.jpg"
               alt="hero template"
               width={500}
               height={500}
