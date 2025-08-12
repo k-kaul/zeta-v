@@ -16,7 +16,7 @@ export default function HeroSection(){
                   />
                   <div className="pointer-events-none absolute inset-0 flex items-center justify-center bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)] "></div>
                 <div className="relative flex flex-col gap-8 items-center">
-                    <h1 className="text-center xl:text-7xl text-6xl font-extrabold tracking-tight font-sans max-w-2xl">
+                    <h1 className="text-center xl:text-7xl text-6xl font-extrabold tracking-tight font-sans lg:max-w-2xl md:max-w-lg max-w-md">
                         Democratizing IT {' '}                    
                         <span className="bg-gradient-to-r from-blue-700 via-purple-700 to-red-700 bg-clip-text text-transparent">Beyond Barriers</span>
                     </h1>    
