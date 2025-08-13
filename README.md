@@ -1,6 +1,6 @@
 # Company Landing Page
 
-A modern, responsive landing page for **[Zeta-V]**, built with [Next.js](https://nextjs.org/), [Tailwind CSS](https://tailwindcss.com/), and [shadcn/ui](https://ui.shadcn.com/).  
+A modern, responsive landing page for **Zeta-V**, built with [Next.js](https://nextjs.org/), [Tailwind CSS](https://tailwindcss.com/), and [shadcn/ui](https://ui.shadcn.com/).  
 This project is designed to be fast, accessible, and easily customizable.
 
 ---
