@@ -42,8 +42,12 @@ Open http://localhost:3000 to view it.
 
 ---
 
-🚀 Deployment
+## 🚀 Deployment
+
 Deployed on [Vercel](https://vercel.com)
 
-📜 License
+---
+
+## 📜 License
+
 Licensed under the MIT License.
